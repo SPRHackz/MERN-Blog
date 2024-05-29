@@ -21,7 +21,7 @@ const Header = () => {
         <Moon/>
       </Button>
       <Link to="/sign-in">
-      <Button className="text-2xl font-bold" gradientDuoTone="purpleToBlue" >
+      <Button className="text-2xl font-bold" gradientDuoTone="purpleToBlue"outline >
        Sign In
       </Button>
       </Link>
