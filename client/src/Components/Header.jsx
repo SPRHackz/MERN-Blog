@@ -8,7 +8,7 @@ const Header = () => {
   <Navbar className="border-b-2 ">
     <Link to="/" className="flex">
       <img src="/vite.svg" alt="SPR-Blog"  />
-      <h2 className=" self-center whitespace-nowrap text-2xl sm:text-xl  px-1 font-bold text-blue-600 ">SPR Blog</h2>
+      <h2 className=" self-center whitespace-nowrap text-2xl sm:text-xl  px-1 font-bold text-blue-600 dark:text-white">SPR Blog</h2>
     </Link>
     <form>
       <TextInput className="hidden lg:inline" type="text" placeholder="Search..." rightIcon={Search} />
