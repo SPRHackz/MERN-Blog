@@ -27,7 +27,7 @@ const Header = () => {
       </Link>
       <NavbarToggle />
     </div>
-      <NavbarCollapse className="flex justify-center ">
+      <NavbarCollapse className="">
         <NavbarLink  active={path=="/"} as={"div"}>
           <Link to="/">Home</Link>
         </NavbarLink>
